@@ -18,7 +18,7 @@ export default class Floor {
   setTextures(){
     this.textures = {}
 
-    this.textures.color = this.resources.items.grassColorTexture
+    this.textures.color = this.resources.items.dirtColorTexture
     console.log(this.textures.color);
   }
   setMaterial(){
